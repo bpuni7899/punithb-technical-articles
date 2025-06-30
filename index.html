@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Punith B | Cloud & Systems Admin</title>
+  <title>Punith B | Published Work</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -17,39 +17,12 @@
       background-color: #1e40af;
       color: white;
       padding: 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 1.5rem;
-    }
-    .header-image {
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      overflow: hidden;
-    }
-    .header-image img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    .header-text {
-      text-align: left;
+      text-align: center;
     }
     main {
-      display: flex;
-      max-width: 1000px;
+      max-width: 900px;
       margin: auto;
       padding: 2rem;
-    }
-    .profile-pic {
-      display: none;
-    }
-    .content {
-      flex: 1;
-    }
-    section {
-      padding-bottom: 2rem;
     }
     h1, h2 {
       margin-bottom: 1rem;
@@ -59,22 +32,20 @@
       border-bottom: 2px solid #1e40af;
       padding-bottom: 0.5rem;
     }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    ul li::before {
-      content: "\2022";
-      color: #1e40af;
-      font-weight: bold;
-      display: inline-block;
-      width: 1em;
-      margin-left: -1em;
-    }
-    .contact {
-      background: #e0e7ff;
-      padding: 1rem;
+    article {
+      background: white;
+      border: 1px solid #ddd;
       border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+    article h3 {
+      margin-top: 0;
+      color: #1e3a8a;
+    }
+    article p {
+      margin: 0.5rem 0 0;
     }
     footer {
       text-align: center;
@@ -86,70 +57,37 @@
 </head>
 <body>
   <header>
-    <div class="header-image">
-      <img src="images/profile.jpg" alt="Punith B Profile Photo">
-    </div>
-    <div class="header-text">
-      <h1>Punith B</h1>
-      <p>Cloud Support Engineer | Systems Administrator | Azure & VMware Specialist</p>
-    </div>
+    <h1>Punith B</h1>
+    <p>Published Work | Technical Articles | Cloud & Systems Engineering</p>
   </header>
 
   <main>
-    <div class="content">
-      <section>
-        <h2 class="section-title">About Me</h2>
-        <p>I am a dynamic IT professional with 2+ years of experience as a Business Analyst and QA Tester, now focused on Windows Server Administration, Azure Cloud Services, and VMware Infrastructure Management. Passionate about solving complex problems and continuously learning in a cloud-first world.</p>
-      </section>
+    <h2 class="section-title">Published Work</h2>
 
-      <section>
-        <h2 class="section-title">Technical Skills</h2>
-        <ul>
-          <li>Windows Server (2012-2022)</li>
-          <li>Microsoft Azure (VMs, NSG, Backup, RBAC, Networking)</li>
-          <li>VMware vSphere, vCenter, HA/DRS, vMotion</li>
-          <li>Veeam Backup, Azure Backup Vault</li>
-          <li>PowerShell, SCCM, BigFix, Robocopy, Azure DevOps</li>
-          <li>Active Directory, DNS, DHCP, Group Policy</li>
-        </ul>
-      </section>
+    <article>
+      <h3>Getting Started with Azure Virtual Machines</h3>
+      <p>A step-by-step guide for beginners on deploying and managing Azure Virtual Machines with real-world tips on backups, RBAC, and virtual networking.</p>
+    </article>
 
-      <section>
-        <h2 class="section-title">Experience</h2>
-        <ul>
-          <li><strong>Business Analyst & QA Tester</strong> – i2space Web Technologies (Nov 2023 – Present)</li>
-          <li><strong>Digital Marketing Expert</strong> – Grassroots Pvt Ltd (May 2022 – June 2023)</li>
-        </ul>
-      </section>
+    <article>
+      <h3>Setting Up a Secure Windows Server with Active Directory</h3>
+      <p>Explains how to install and configure Active Directory, create user groups, apply group policies, and use PowerShell for automation.</p>
+    </article>
 
-      <section>
-        <h2 class="section-title">Published Work</h2>
-        <ul>
-          <li><strong>Getting Started with Azure Virtual Machines</strong> – A beginner-friendly guide on deploying and configuring Azure VMs, including backups, RBAC, and networking.</li>
-          <li><strong>Setting Up a Secure Windows Server Environment Using Active Directory</strong> – Covers Group Policy, user roles, and automation using PowerShell.</li>
-          <li><strong>Introduction to VMware vSphere: From Clusters to vMotion</strong> – Explains setup and management of virtual environments with live migration and resource scheduling.</li>
-          <li><strong>Cloud vs On-Prem Infrastructure: A Practical Comparison</strong> – A detailed comparison of Azure vs traditional setups with use cases.</li>
-          <li><strong>Automating Patch Management with PowerShell and SCCM</strong> – Demonstrates practical automation of patching and reporting in enterprise environments.</li>
-        </ul>
-      </section>
+    <article>
+      <h3>Introduction to VMware vSphere and vMotion</h3>
+      <p>Overview of virtualization with vSphere, creating HA clusters, and performing live VM migrations using vMotion in enterprise environments.</p>
+    </article>
 
-      <section>
-        <h2 class="section-title">Career Goals</h2>
-        <p>I aim to grow into a Cloud Support Engineer or Systems Administrator role where I can apply my expertise in cloud infrastructure, virtualization, and server administration to support business-critical IT environments.</p>
-      </section>
+    <article>
+      <h3>Cloud vs On-Premise: Choosing the Right Infrastructure</h3>
+      <p>Compares cost, scalability, security, and operational differences between cloud (Azure) and on-prem IT setups, with use cases.</p>
+    </article>
 
-      <section>
-        <h2 class="section-title">Education</h2>
-        <p><strong>B.Tech in Mechanical Engineering</strong><br>Presidency University, Bangalore</p>
-      </section>
-
-      <section class="contact">
-        <h2 class="section-title">Contact</h2>
-        <p>Email: <a href="mailto:bpunith65@gmail.com">bpunith65@gmail.com</a></p>
-        <p>Phone: +91 7899686144</p>
-        <p>Location: Bangalore, India</p>
-      </section>
-    </div>
+    <article>
+      <h3>Automating Patch Management with PowerShell and SCCM</h3>
+      <p>Demonstrates how to streamline patch deployment and reporting in a Windows environment using scripting and SCCM integration.</p>
+    </article>
   </main>
 
   <footer>

@@ -1,1 +1,0 @@
-# punithb-technical-articles
